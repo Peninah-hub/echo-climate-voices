@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import logoImage from "@/assets/v4cj-logo.png";
 
 const Header = () => {
   const navItems = [
@@ -14,13 +15,12 @@ const Header = () => {
     <header className="absolute top-0 left-0 right-0 z-50 px-6 py-4">
       <nav className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-            <span className="text-white text-sm font-bold">V4CJ</span>
-          </div>
-          <span className="text-white text-lg font-semibold hidden sm:block">
-            Voices for Climate Justice
-          </span>
+        <div className="flex items-center">
+          <img 
+            src={logoImage} 
+            alt="Voices for Climate Justice" 
+            className="h-12 w-auto"
+          />
         </div>
 
         {/* Navigation Menu */}

@@ -1,3 +1,5 @@
+import logoImage from "@/assets/v4cj-logo.png";
+
 const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-12" id="contact">
@@ -5,13 +7,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-white text-sm font-bold">V4CJ</span>
-              </div>
-              <span className="text-lg font-semibold">
-                Voices for Climate Justice
-              </span>
+            <div className="mb-4">
+              <img 
+                src={logoImage} 
+                alt="Voices for Climate Justice" 
+                className="h-10 w-auto mb-4 brightness-0 invert opacity-90"
+              />
             </div>
             <p className="text-background/80 leading-relaxed">
               A youth-led movement empowering young people to speak out, learn, 
