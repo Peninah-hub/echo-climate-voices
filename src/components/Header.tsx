@@ -34,6 +34,12 @@ const Header = () => {
               {item.name}
             </a>
           ))}
+          <a
+            href="#our-work"
+            className="text-white hover:text-primary transition-colors duration-200"
+          >
+            Our Work
+          </a>
         </div>
 
         {/* Our Stories Button */}
