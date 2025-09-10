@@ -12,6 +12,20 @@ const Index = () => {
     <div className="min-h-screen">
       <Header />
       <Hero />
+      
+      {/* Featured Climate Action Image */}
+      <section className="py-16 bg-muted/30">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="rounded-xl overflow-hidden shadow-2xl">
+            <img 
+              src="/lovable-uploads/fbbfa113-ba47-4e8d-91c9-ac16fde6d13d.png"
+              alt="Climate Justice Rally - Fight for Climate Justice Now"
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
+      </section>
+      
       <Mission />
       <Story />
       <WhatWeDo />
