@@ -1,41 +1,49 @@
-import peninahClimateJustice from "@/assets/peninah-climate-justice-now.jpg";
-import peninahTreePlanting from "@/assets/peninah-tree-planting.jpg";
-import peninahSpeaking from "@/assets/peninah-speaking-rally.jpg";
-import peninahJusticePlanet from "@/assets/peninah-justice-planet.jpg";
-import studentsAction from "@/assets/students-climate-action.jpg";
-import peninahNoPlanetB from "@/assets/peninah-no-planet-b.jpg";
-
 const OurWork = () => {
   const activities = [
     {
-      image: peninahSpeaking,
-      title: "Community Rallies & Awareness",
-      description: "Leading powerful community gatherings to raise awareness about climate justice and mobilize youth action."
+      image: "/lovable-uploads/fbbfa113-ba47-4e8d-91c9-ac16fde6d13d.png",
+      title: "Climate Justice Rally",
+      description: "Leading powerful community gatherings to fight for climate justice and mobilize youth action."
     },
     {
-      image: peninahTreePlanting,
-      title: "Environmental Action",
-      description: "Taking direct action through tree planting, conservation efforts, and sustainable farming practices."
-    },
-    {
-      image: studentsAction,
-      title: "Youth Mobilization",
-      description: "Empowering students and young people to become climate advocates in their schools and communities."
-    },
-    {
-      image: peninahClimateJustice,
-      title: "Climate Justice Advocacy",
-      description: "Advocating for fair and equitable climate solutions that protect vulnerable communities."
-    },
-    {
-      image: peninahJusticePlanet,
+      image: "/lovable-uploads/57100eec-fb80-4f35-863f-bbb768fe4ad6.png",
       title: "Justice for Our Planet",
-      description: "Fighting for environmental justice and the rights of future generations."
+      description: "Advocating for environmental justice and the rights of future generations through peaceful activism."
     },
     {
-      image: peninahNoPlanetB,
-      title: "Urgent Climate Action",
-      description: "Spreading the critical message that there is no Planet B - we must act now."
+      image: "/lovable-uploads/9e061065-5933-4b72-b553-020cadf78450.png",
+      title: "Climate Justice Now",
+      description: "V4CJ members spreading awareness about the urgent need for climate action and justice."
+    },
+    {
+      image: "/lovable-uploads/ece93f4b-dc67-4927-91ec-383b644905ed.png",
+      title: "Youth Climate Movement",
+      description: "Students from across Kenya uniting with powerful messages demanding climate action and clean air."
+    },
+    {
+      image: "/lovable-uploads/986ce0c1-9a5a-46b6-b23a-c386f6631da2.png",
+      title: "There is No Planet B",
+      description: "Spreading the critical message that we have only one planet and must act now to protect it."
+    },
+    {
+      image: "/lovable-uploads/ca883ce2-eaef-4f33-8a1d-b22fa0ef3de6.png",
+      title: "Don't Burn Our Future",
+      description: "Community leaders and youth joining forces to protect the environment for future generations."
+    },
+    {
+      image: "/lovable-uploads/f1b3e418-8b2d-4bad-8566-9fd813009b30.png",
+      title: "Climate Change in Schools",
+      description: "V4CJ's work featured on national television as we advocate for climate education in school curricula."
+    },
+    {
+      image: "/lovable-uploads/245fe874-c840-4674-b70c-c77725989cc8.png",
+      title: "Climate Innovation Challenge",
+      description: "Recognition and awards for outstanding climate action initiatives and youth leadership in environmental protection."
+    },
+    {
+      image: "/lovable-uploads/f12e6142-c2f2-4c89-ad3d-f0473c9fb0b8.png",
+      title: "Creative Environmental Action",
+      description: "Innovative approaches to environmental conservation, turning everyday items into tools for sustainable gardening."
     }
   ];
 
@@ -47,8 +55,8 @@ const OurWork = () => {
             Our Work in Action
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
-            See how our founder <span className="font-semibold text-primary">Peninah Esther</span> and 
-            the V4CJ team are making real change happen on the ground through grassroots climate action.
+            See how <span className="font-semibold text-primary">Voices for Climate Justice</span> and 
+            our dedicated team are making real change happen through grassroots climate activism and youth empowerment.
           </p>
         </div>
 
@@ -81,7 +89,7 @@ const OurWork = () => {
         <div className="mt-16 text-center">
           <div className="bg-primary/5 rounded-2xl p-8 border border-primary/20">
             <h3 className="text-2xl font-bold mb-4 text-foreground">
-              Join Peninah's Mission
+              Join Our Climate Movement
             </h3>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
               These are real actions creating real change. Be part of the movement that's 
