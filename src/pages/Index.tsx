@@ -21,7 +21,7 @@ const Index = () => {
             {/* Image */}
             <div className="rounded-xl overflow-hidden shadow-2xl">
               <img 
-                src="/lovable-uploads/fbbfa113-ba47-4e8d-91c9-ac16fde6d13d.png"
+                src="/lovable-uploads/peninah-rally-clean.jpg"
                 alt="Peninah Esther at Climate Justice Rally"
                 className="w-full h-auto object-cover"
               />
