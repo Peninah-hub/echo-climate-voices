@@ -85,26 +85,6 @@ const OurWork = () => {
           ))}
         </div>
 
-        {/* Call to Action */}
-        <div className="mt-16 text-center">
-          <div className="bg-primary/5 rounded-2xl p-8 border border-primary/20">
-            <h3 className="text-2xl font-bold mb-4 text-foreground">
-              Join Our Climate Movement
-            </h3>
-            <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              These are real actions creating real change. Be part of the movement that's 
-              empowering youth voices and fighting for climate justice across Africa and beyond.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-primary text-primary-foreground hover:bg-primary-glow px-6 py-3 rounded-lg font-medium transition-colors">
-                Take Action Now
-              </button>
-              <button className="border border-primary text-primary hover:bg-primary hover:text-primary-foreground px-6 py-3 rounded-lg font-medium transition-colors">
-                Learn More About V4CJ
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
