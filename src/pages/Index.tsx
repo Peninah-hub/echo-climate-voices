@@ -65,6 +65,7 @@ const Index = () => {
       <Story />
       <WhatWeDo />
       <OurWork />
+      <TreePlanting />
       <Impact />
       <GetInvolved />
       <Footer />
