@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { slugify } from "@/data/stories";
 const OurWork = () => {
   const activities = [
     {
@@ -57,9 +59,10 @@ const OurWork = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {activities.map((activity, index) => (
-            <div 
+            <Link 
               key={index}
-              className="bg-card rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-border/50"
+              to={`/stories/${slugify(activity.title)}`}
+              className="block group cursor-pointer bg-card rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-border/50"
             >
               <div className="aspect-[4/3] overflow-hidden">
                 <img 
@@ -75,8 +78,9 @@ const OurWork = () => {
                 <p className="text-muted-foreground leading-relaxed">
                   {activity.description}
                 </p>
+                <span className="inline-block mt-4 text-primary font-medium group-hover:underline">Read the story →</span>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
