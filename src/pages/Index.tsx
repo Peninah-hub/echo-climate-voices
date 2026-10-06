@@ -45,7 +45,6 @@ const Index = () => {
                   Passionate, innovative, and determined, Peninah Esther represents a new generation of leaders who believe in turning knowledge into action. Her vision is to build a movement where young people, especially in the Global South, become key drivers of solutions for climate resilience, justice, and sustainability.
                 </p>
               </div>
-            </div>
           </div>
         </div>
       </section>
