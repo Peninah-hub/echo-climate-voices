@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { slugify } from "@/data/stories";
 const TreePlanting = () => {
   const photos = [
     {
@@ -64,9 +66,10 @@ const TreePlanting = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {photos.map((photo, index) => (
-            <div 
+            <Link 
               key={index}
-              className="bg-card rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-border/50"
+              to={`/stories/${slugify(photo.title)}`}
+              className="block group cursor-pointer bg-card rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-border/50"
             >
               <div className="aspect-[4/3] overflow-hidden">
                 <img 
@@ -82,8 +85,9 @@ const TreePlanting = () => {
                 <p className="text-muted-foreground leading-relaxed">
                   {photo.description}
                 </p>
+                <span className="inline-block mt-4 text-primary font-medium group-hover:underline">Read the story →</span>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
         {/* Call to Action */}
