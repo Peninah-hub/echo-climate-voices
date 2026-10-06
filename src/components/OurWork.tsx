@@ -1,11 +1,6 @@
 const OurWork = () => {
   const activities = [
     {
-      image: "/lovable-uploads/peninah-rally-clean.jpg",
-      title: "Climate Justice Rally",
-      description: "Leading powerful community gatherings to fight for climate justice and mobilize youth action."
-    },
-    {
       image: "/lovable-uploads/57100eec-fb80-4f35-863f-bbb768fe4ad6.png",
       title: "Justice for Our Planet",
       description: "Advocating for environmental justice and the rights of future generations through peaceful activism."
