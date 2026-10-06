@@ -17,29 +17,18 @@ const Index = () => {
       
       {/* Peninah Esther Biography */}
       <section className="py-20 bg-muted/30">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Image */}
-            <div className="rounded-xl overflow-hidden shadow-2xl">
-              <img 
-                src="/lovable-uploads/peninah-rally-clean.jpg"
-                alt="Peninah Esther at Climate Justice Rally"
-                className="w-full h-auto object-cover"
-              />
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="space-y-6">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                Meet Peninah Esther
+              </h2>
+              <p className="text-lg text-primary font-semibold">
+                Founder & Climate Justice Advocate
+              </p>
             </div>
-            
-            {/* Biography */}
-            <div className="space-y-6">
-              <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                  Meet Peninah Esther
-                </h2>
-                <p className="text-lg text-primary font-semibold">
-                  Founder & Climate Justice Advocate
-                </p>
-              </div>
-              
-              <div className="prose prose-lg text-muted-foreground space-y-4">
+
+            <div className="prose prose-lg text-muted-foreground space-y-4">
                 <p>
                   Peninah Esther is a young climate change advocate and social justice activist from Kenya. Growing up in a region heavily affected by droughts and water scarcity, she became aware at an early age of the profound impacts that climate change has on people&apos;s daily lives, health, and mental well-being.
                 </p>
